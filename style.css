@@ -1,0 +1,66 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Lucia Grande;
+}
+
+.container {
+  width: 720px;
+  margin: 0 auto;
+}
+
+.card {
+  display: inline-block;
+  width: 350px;
+  height: 300px;
+  color: white;
+  position: relative;
+}
+
+.card-footer {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  padding: 10px;
+  text-align: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eee;
+}
+
+.card-header {
+  background: #007a87;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 12px;
+  text-align: center;
+  padding: 10px;
+  opacity: 0.85;
+  width: 125px;
+}
+
+.alice-chris-travel-card {
+  background: url(http://assets.worldwildlife.org/photos/2842/images/hero_small/shutterstock_12730534.jpg?1352150501);
+}
+
+.alicia-cristobal-card {
+  background: url(http://miriadna.com/desctopwalls/images/max/Falling-asleep-forest.jpg);
+}
+
