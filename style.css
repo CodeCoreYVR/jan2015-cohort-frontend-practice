@@ -64,3 +64,44 @@ a:hover {
   background: url(http://miriadna.com/desctopwalls/images/max/Falling-asleep-forest.jpg);
 }
 
+
+.splash {
+  background: url(http://ets.berkeley.edu/sites/default/files/images/harbour_sunset_wallpaper.jpg);
+  min-height: 500px;
+  max-height: 1000px;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+
+.splash-footer {
+  position: absolute;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  color: white;
+}
+
+.splash-header {
+  position: relative;
+}
+
+.splash-navigation {
+  position: absolute;
+  right: 0;
+}
+
+.splash-content-header {
+  margin-top: 0;
+}
+
+.splash-content {
+  position: absolute;
+  top: 45%;
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+  width: 100%;
+  color: #fff;
+  transform: translateY(-50%);
+}
